@@ -53,3 +53,6 @@
 @media(max-width:850px){.legend{justify-content:flex-start;gap:10px;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px}.legend-item{flex:0 0 auto}}
 /* Tabela com cabecalho e coluna de profissionais fixos durante a rolagem */
 .table-wrap{position:relative;isolation:isolate}.table-wrap thead th{position:sticky;top:0;z-index:5;background:#fafbf9}.table-wrap thead th.person{left:0;z-index:8;background:#fafbf9}.table-wrap tbody td.person{position:sticky;left:0;z-index:4;background:#fff;box-shadow:2px 0 0 #e8ebe7}.table-wrap tbody tr:hover td.person{background:#fbfdfb}.table-wrap thead th.person{box-shadow:2px 0 0 #e0e4df}
+/* Evita sobreposicao durante a rolagem horizontal */
+.table-wrap table{border-collapse:separate;border-spacing:0}.table-wrap thead th.person{display:table-cell;z-index:30!important;background:#fafbf9!important}.table-wrap tbody td.person{display:table-cell;z-index:20!important;background:#fff!important;background-clip:padding-box;vertical-align:middle}.table-wrap tbody td.person b,.table-wrap tbody td.person small{display:inline-block;vertical-align:middle}.table-wrap tbody td.person small{margin-left:10px}.table-wrap tbody td.person:after{content:"";position:absolute;inset:0;z-index:-1;background:#fff}
+.table-wrap tbody td.person{isolation:isolate}.table-wrap tbody td.person>*{position:relative;z-index:1}
