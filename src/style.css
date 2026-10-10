@@ -49,3 +49,5 @@
 @media(max-width:850px){.month-picker-popover{right:auto;left:0;position:fixed;bottom:78px;top:auto;margin-left:12px}.month-nav strong{min-width:120px}}
 .password-line{display:flex;align-items:center;gap:6px}.password-line input{flex:1;min-width:0}.password-toggle{border:1px solid #d5ddd7;background:#f7faf8;color:#31564d;border-radius:5px;padding:8px 9px;font-size:11px;cursor:pointer;white-space:nowrap}.password-toggle:hover{background:#e8f1ec}.password-form{display:grid;gap:14px;padding:0 22px 22px}.password-card{margin-top:18px}.password-card .card-head{padding-bottom:16px}
 @media(max-width:850px){nav button span{display:block!important}nav button span+span{white-space:nowrap}}
+.legend{display:flex;align-items:center;gap:14px;color:#7b8b85;font-size:11px}.legend-item{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}.legend-item i{margin-right:0}
+@media(max-width:850px){.legend{justify-content:flex-start;gap:10px;overflow-x:auto;flex-wrap:nowrap;padding-bottom:2px}.legend-item{flex:0 0 auto}}
